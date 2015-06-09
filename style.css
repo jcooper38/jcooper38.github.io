@@ -22,6 +22,8 @@ body{
     text-align: right;
 }
 
+
+
 .row {
     margin-top: 100px;
 }
@@ -63,4 +65,19 @@ body{
     font-size: 30px;
     line-height: 30px;
     margin-top: 50px;
+}
+
+.slider {
+  margin: 10px 0;
+  width: 580px; /* Update to your slider width */
+  height: 250px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
